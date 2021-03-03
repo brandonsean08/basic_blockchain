@@ -1,0 +1,28 @@
+{
+  "name": "basic_blockchain",
+  "version": "1.0.0",
+  "description": "A basic blockchain with wallets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc -w",
+    "start": "tsc && node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonsean08/basic_blockchain.git"
+  },
+  "author": "Brandon Coetzee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandonsean08/basic_blockchain/issues"
+  },
+  "homepage": "https://github.com/brandonsean08/basic_blockchain#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "typescript": "^4.2.2"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}
